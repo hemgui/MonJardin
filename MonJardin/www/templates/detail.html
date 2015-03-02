@@ -1,0 +1,45 @@
+<ion-view view-title="{{plant.preferred_common_name}}">
+    <ion-content>
+        <div class="list card">
+
+            <div class="item">
+                <h1>{{plant.fullname}}</h1>
+                <p>{{plant.latin_name}}</p>
+            </div>
+
+            <div class="item item-body">
+                <img class="full-image" src="{{(plant.images)[0].image_path}}">
+                <h2>Descriptif</h2>
+                <p>
+                    {{plant.description}}
+                </p>
+                <h2>Entretien</h2>
+                <h3>Croissance</h3>
+                <p ng-bind-html="plant.growth | sanitize" />
+                <h3>Floraison</h3>
+                <p ng-bind-html="plant.blooming | sanitize" />
+                <h3>Sol et irrigation</h3>
+                <p ng-bind-html="plant.soil_irr | sanitize" />
+                <h3>Taille</h3>
+                <p ng-bind-html="plant.pruning | sanitize" />
+                <h3>Maladies/Parasites</h3>
+                <p ng-bind-html="plant.pests | sanitize" />
+                <h2>Faits interessant</h2>
+                <p ng-bind-html="plant.interesting | sanitize" />
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item positive" href="#">
+                    <i class="icon ion-plus-circled"></i> Ajouter à mon jardin
+                </a>
+                <a class="tab-item positive" href="#">
+                    <i class="icon ion-chatbox"></i> Comment
+                </a>
+                <a class="tab-item positive" href="#">
+                    <i class="icon ion-share"></i> Share
+                </a>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

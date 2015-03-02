@@ -1,0 +1,73 @@
+<div class="fil-blk">
+	  <h2>FILTRES 
+	  <!--<a href="javascript:void(0);" class="clear-filter">CLEAR ALL</a>--></h2>
+	  <div class="fil-blk-itm frst-box">
+		<h3>TYPE</h3>
+		<ul class="fil-ul">
+		  <li><a id="PT-GR" onclick="hawaii.addFilter('PT-GR')" href="javascript:void(0);"><i class="icon icon-grass"></i><span>Herbe</span></a></li>
+		  <li><a id="PT-IP" onclick="hawaii.addFilter('PT-IP')" href="javascript:void(0);"><i class="icon icon-interior-plant"></i><span>Plante d'intérieur</span></a></li>
+		  <li><a id="PT-SH" onclick="hawaii.addFilter('PT-SH')" href="javascript:void(0);"><i class="icon icon-shrub"></i><span>Arbuste</span></a></li>
+		  <li><a id="PT-TR" onclick="hawaii.addFilter('PT-TR')" href="javascript:void(0);"><i class="icon icon-tree"></i><span>Arbre</span></a></li>
+		  <li><a id="PT-VI" onclick="hawaii.addFilter('PT-VI')" href="javascript:void(0);"><i class="icon icon-vine"></i><span>Plante grimpante</span></a></li>
+		  <li><a id="SF-ED" onclick="hawaii.addFilter('SF-ED')" href="javascript:void(0);"><i class="icon icon-eadible"></i><span>Comestible</span></a></li>
+		</ul>
+	  </div>
+	  <div class="fil-blk-itm">
+		<h3>FORME DE LA PLANTE</h3>
+		<ul class="fil-ul">
+		  <li><a id="SH-IR" onclick="hawaii.addFilter('SH-IR')" href="javascript:void(0);"><i class="icon icon-irregular-or-sprawling"></i><span>Irrégulière</span></a></li>
+		  <li><a id="SH-PY" onclick="hawaii.addFilter('SH-PY')" href="javascript:void(0);"><i class="icon icon-pyramidal"></i><span>Pyramidale</span></a></li>
+		  <li><a id="SH-RO" onclick="hawaii.addFilter('SH-RO')" href="javascript:void(0);"><i class="icon icon-rounded"></i><span>Arrondie</span></a></li>
+		  <li><a id="SH-SP" onclick="hawaii.addFilter('SH-SP')" href="javascript:void(0);"><i class="icon icon-spreading-or-horizontal"></i><span>Déployée</span></a></li>
+		  <li><a id="SH-UP" onclick="hawaii.addFilter('SH-UP')" href="javascript:void(0);"><i class="icon icon-upright-or-erect"></i><span>Droite</span></a></li>           
+		</ul>
+	  </div>
+	  <div class="fil-blk-itm bloom clearfix">
+		<h3>COULEUR DE FLORAISON</h3>
+		<ul class="fil-ul clearfix">
+		  <li><a id="BL-BK" onclick="hawaii.addFilter('BL-BK')" href="javascript:void(0);"><i class="icon icon-flo-black"></i></a></li>
+		  <li><a id="BL-BL" onclick="hawaii.addFilter('BL-BL')" href="javascript:void(0);"><i class="icon icon-flo-blue"></i></a></li>
+		  <li><a id="BL-GR" onclick="hawaii.addFilter('BL-GR')" href="javascript:void(0);"><i class="icon icon-flo-green"></i></a></li>
+		  <li><a id="BL-OR" onclick="hawaii.addFilter('BL-OR')" href="javascript:void(0);"><i class="icon icon-flo-orange"></i></a></li>
+		  <li><a id="BL-PI" onclick="hawaii.addFilter('BL-PI')" href="javascript:void(0);"><i class="icon icon-flo-pink"></i></a></li>
+		  <li><a id="BL-PU" onclick="hawaii.addFilter('BL-PU')" href="javascript:void(0);"><i class="icon icon-flo-purple"></i></a></li>
+		  <li><a id="BL-RE" onclick="hawaii.addFilter('BL-RE')" href="javascript:void(0);"><i class="icon icon-flo-red"></i></a></li>
+		  <li><a id="BL-WH" onclick="hawaii.addFilter('BL-WH')" href="javascript:void(0);"><i class="icon icon-flo-white"></i></a></li>
+		  <li><a id="BL-YE" onclick="hawaii.addFilter('BL-YE')" href="javascript:void(0);"><i class="icon icon-flo-yellow"></i></a></li>
+		</ul>
+	  </div>
+	  <div class="fil-blk-itm leaf clearfix">
+		<h3>COULEUR DES FEUILLES</h3>
+		<ul class="fil-ul clearfix">
+		  <li><a id="FO-BK" onclick="hawaii.addFilter('FO-BK')" href="javascript:void(0);"><i class="icon icon-lea-black"></i></a></li>
+		  <li><a id="FO-BL" onclick="hawaii.addFilter('FO-BL')" href="javascript:void(0);"><i class="icon icon-lea-blue"></i></a></li>
+		  <li><a id="FO-BR" onclick="hawaii.addFilter('FO-BR')" href="javascript:void(0);"><i class="icon icon-lea-brown"></i></a></li>
+		  <li><a id="FO-GR" onclick="hawaii.addFilter('FO-GR')" href="javascript:void(0);"><i class="icon icon-lea-green"></i></a></li>
+		  <li><a id="FO-OR" onclick="hawaii.addFilter('FO-OR')" href="javascript:void(0);"><i class="icon icon-lea-orange"></i></a></li>
+		  <li><a id="FO-PI" onclick="hawaii.addFilter('FO-PI')" href="javascript:void(0);"><i class="icon icon-lea-pink"></i></a></li>
+		  <li><a id="FO-PU" onclick="hawaii.addFilter('FO-PU')" href="javascript:void(0);"><i class="icon icon-lea-purple"></i></a></li>
+		  <li><a id="FO-RE" onclick="hawaii.addFilter('FO-RE')" href="javascript:void(0);"><i class="icon icon-lea-red"></i></a></li>
+		  <li><a id="FO-SI" onclick="hawaii.addFilter('FO-SI')" href="javascript:void(0);"><i class="icon icon-lea-silver"></i></a></li>
+		  <li><a id="FO-VA" onclick="hawaii.addFilter('FO-VA')" href="javascript:void(0);"><i class="icon icon-lea-variegated"></i></a></li>
+		  <li><a id="FO-WH" onclick="hawaii.addFilter('FO-WH')" href="javascript:void(0);"><i class="icon icon-lea-white"></i></a></li>
+		  <li><a id="FO-YE" onclick="hawaii.addFilter('FO-YE')" href="javascript:void(0);"><i class="icon icon-lea-yellow"></i></a></li>
+		</ul>
+	  </div>
+	  <div class="fil-blk-itm">
+		<h3>CYCLE</h3>
+		<ul class="fil-ul">
+		  <li><a id="PT-AN" onclick="hawaii.addFilter('PT-AN')" href="javascript:void(0);"><i class="icon icon-annual"></i><span>Annuel</span></a></li>
+		  <li><a id="PT-BA" onclick="hawaii.addFilter('PT-BA')" href="javascript:void(0);"><i class="icon icon-biennal"></i><span>Bi-annuelle</span></a></li>
+		  <li><a id="PT-PE" onclick="hawaii.addFilter('PT-PE')" href="javascript:void(0);"><i class="icon icon-perennial"></i><span>Vivace</span></a></li>                
+		</ul>
+	  </div>
+	  <div class="fil-blk-itm">
+		<h3>SAISON DE FLORAISON</h3>
+		<ul class="fil-ul">
+		  <li><a id="SN-S" onclick="hawaii.addFilter('SN-S')" href="javascript:void(0);"><i class="icon icon-spring"></i><span>Printemps</span></a></li>
+		  <li><a id="SN-E" onclick="hawaii.addFilter('SN-E')" href="javascript:void(0);"><i class="icon icon-summer"></i><span>Été</span></a></li>
+		  <li><a id="SN-F" onclick="hawaii.addFilter('SN-F')" href="javascript:void(0);"><i class="icon icon-autumn"></i><span>Automne</span></a></li>                  
+		  <li><a id="SN-W" onclick="hawaii.addFilter('SN-W')" href="javascript:void(0);"><i class="icon icon-winter"></i><span>Hiver</span></a></li>
+		</ul>
+	  </div>
+</div>

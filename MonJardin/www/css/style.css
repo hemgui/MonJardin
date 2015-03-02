@@ -1,0 +1,30 @@
+/* Empty. Add your own CSS if you like */
+
+.tabs-color-balanced .tab-item {
+    color: rgba(51, 205, 95, 0.8);
+    opacity: 1;
+}
+/* ALL */
+
+.button.button-icon.input-button {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color: #bbb;
+}
+.plants-list .item img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.plants-list .plant-item.item {
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+em {
+    font-style: italic;
+}

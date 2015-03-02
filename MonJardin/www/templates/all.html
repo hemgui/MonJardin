@@ -1,0 +1,31 @@
+<ion-view view-title="Tous les végétaux">
+
+    <ion-header-bar class="bar-positive">
+        <div class="button" ng-click="scrollBottom()">
+            Scroll To Bottom
+        </div>
+    </ion-header-bar>
+    <ion-header-bar class="bar-light bar-subheader">
+        <input type="search" placeholder="Nom de la plante..." ng-model="search" ng-focus="searchFocused = true" ng-blur="searchFocused = false" ng-change="scrollTop()">
+        <button ng-if="search.length" class="button button-icon ion-android-close input-button" ng-click="clearSearch()">
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="list plants-list
+">
+            <a class="item plant-item" collection-repeat="item in getPlants()" collection-item-height="getItemHeight(item)" collection-item-width="getItemWidth(item)" ng-href="#/app/detail/{{item.id}}" ng-style="{'line-height': getItemHeight(item) + 'px'}" ng-class="{'item-divider': item.isLetter}">
+                <img ng-if="!item.isLetter" ng-src="{{item.image_path}}"> {{item.letter || (item.fullname)}}
+            </a>
+        </div>
+    </ion-content>
+    <!--<ion-content>
+        <div class="list">
+            <a ng-repeat="plant in plants" href="#/detail/{{plant.id}}" class="item item-thumbnail-left">
+
+                <img ng-src="{{ plant.image_path }}">
+                <h2>{{ plant.fullname }}</h2>
+            </a>
+
+        </div>
+    </ion-content>-->
+</ion-view>
